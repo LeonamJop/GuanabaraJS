@@ -1,0 +1,13 @@
+String -> number
+
+Number.parseInt(n); faz a conversão de um número para um número inteiro
+
+Number.parseFloat(n); faz a conversão de um número para um número real
+
+Number(n); JS identifica se o número é inteiro ou real e faz a conversão
+
+
+Number -> String
+
+String(n); faz a conversão de número para String
+n.toString(); faz a conversão de número para String

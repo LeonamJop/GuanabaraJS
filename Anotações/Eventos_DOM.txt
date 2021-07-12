@@ -1,0 +1,15 @@
+Eventos DOM:
+<DIV>
+mouseenter: mouse entrou na div
+mousemove: movendo o mouse na div
+mousedown: apertou o botão do mouse na div
+mouseup: soltou o botão do mouse
+click: clicou na div
+mouseout: mouse saiu da div
+
+site dicas: Event reference da MDN
+
+Funções: conjunto de códigos que serão executados só quando o evento acontecer
+function ação(parametros){códigos}
+
+usar o "addEventListener()" deixa o código mais "limpo"

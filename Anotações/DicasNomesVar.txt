@@ -1,0 +1,12 @@
+#Dicas
+
+Maiúsculas e minúsculas fazem diferença Ex var a = 10 , var A = 20 . foram criados duas 
+variáveis uma senda o "a" contendo o valor "10" e outra sendo "A" contendo o valor "20".
+
+Tente escolher nomes coerentes para as variáveis Ex: caso queira guardar o a informação de um
+salário em uma variavel é mais coerente colocar o identificador da variável de "salario"
+ou seja "var salario = 1000.00"
+
+Evite se tornar um 'programador alfabeto' ex: var a , var b , var c 
+ou 'programador contador' ex: var n1 , var n2 , var n3.
+

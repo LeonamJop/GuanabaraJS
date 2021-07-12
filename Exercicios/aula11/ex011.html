@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>País de moradia</title>
+</head>
+<body>
+    <h1>Brasileiro ou Estrageiro?</h1>
+    <input type="text" name="txtvel" id="txtvel">
+    <input type="button" value="Verificar" onclick="localizar()">
+    <div id=res></div>
+    <script>
+        function localizar(){
+            var txtl = document.getElementById('txtvel')
+            var res = document.querySelector('div#res')
+            var local = txtl.value
+            res.innerHTML = `<p>Você vive em ${local}</p>`
+            if (local == 'Brasil') {
+                res.innerHTML += `<p>Você é Brasileiro</p>`
+            }else{
+                res.innerHTML += `<p>Você é Estrangeiro</p>`
+            }
+        }
+    </script>
+</body>
+</html>

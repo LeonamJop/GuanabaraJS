@@ -1,0 +1,20 @@
+Estudar:
+
+HTML5 e CSS3;
+
+Functions;
+
+JavaScript funcional;
+
+Objetos- JS orientado a objetos;
+
+Modularização;
+
+RegEx- expreções regulares JS;
+
+JSON;
+
+AJAX;
+
+NodeJs;
+

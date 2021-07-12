@@ -1,0 +1,39 @@
+condições:
+if(condição){
+     true
+}else{
+     false	
+}
+
+Tipos de condição:
+condição simples com apenas um bloco
+if(condição){true}
+
+condição composta com dois blocos
+if(condição){
+   true
+}else{
+   false
+}
+
+exemplo simples 1 bloco: nesse caso, se a velocidade for maior que 60 o programa executara a mensagem
+"Você ultrapassou a velocidade permitida. MULTADO!" se não ultrapassar não mostrara a mensagem.
+
+var vel = 60.5
+console.log(`A velocidade do seu carro é ${vel}km/h`)
+if (vel > 60) {
+    console.log(`Você ultrapassou a velocidade permitida. MULTADO!`)
+}
+console.log(`Dirija sempre usando sinto de segurança!`)
+
+
+exemplo composta 2 blocos: nesse caso se o seu país for o Brasil, mostrara a mensagem "Você é Brasileiro"
+se não for mostrara a mensagem "Você é Estrangeiro".
+
+var país ='Brasil'
+console.log(`Vivendo em ${país}`)
+if(país == 'Brasil'){
+    console.log('Você é Brasileiro')
+}else{
+    console.log('Você é Estrangeiro')
+}

@@ -1,0 +1,46 @@
+while(condição){
+	bloco
+}
+Teste lógico no inicio.
+Enquanto a condição for verdadeira o bloco será executado.
+Avalia a condição se for verdadeira executa o bloco e avalia a condição de novo,
+caso a condição continuar sendo verdadeira o bloco será executado e a condição sendo avaliada
+até a mesma se tornar falsa não executando mais o bloco.
+
+var fatiasPizza = 8
+
+function comerPizza(){
+	while(fatiasPizza > 0){
+		comerFatia++
+		fatiasPizza--
+	}
+}
+"comerFatia = 8"
+"fatiasPizza = 0"
+_______________________________________________________________________________________________
+Teste lógico após a execução do bloco.
+
+do{
+	bloco
+}while(condição)
+
+Garante a execução do bloco pelo menos 1 vez antes de avaliar a condição.
+_______________________________________________________________________________________________
+for(inicio;teste;incremento){
+	bloco
+}
+
+Faz a incilização depois o teste se o teste for verdadeiro é executado o bloco e antes de fazer
+a repetição é feito o incremento até o teste ser falso.
+
+Modelo com WHILE:
+var c = 1
+while(c<=10){
+	bloco
+	c++
+}
+
+Modelo com FOR:
+for(var c=1;c<=10;c++){
+	bloco
+}

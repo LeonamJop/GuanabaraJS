@@ -1,0 +1,30 @@
+*São ações executadas assim que são chamadas ou em decorrência de algum evento.
+
+*Uma função pode receber parâmetros e retornar um resultado.
+
+Você um botão, ao clicar nesse botão (onclick)
+faz a chamada da função a qual aquele botão serve.
+
+Botão
+	onclick               *parâmetro*
+		function ação(param){
+			   *ação*
+			return res *retorno*
+		}
+		ação(5) 
+		*chamada*
+
+Quando clicado ele pula a função e vai direto para o "ação(5)",
+fazendo isso ele substitui o "parametros" pelo valor da ação,
+nesse caso é o "5", agora sim executando a função e retornado
+a resposta.
+
+function parimp(n){
+	if(n%2==0){
+		return 'par'
+	}else{
+		return 'impar'
+	}
+}
+let res = parimp(11)
+

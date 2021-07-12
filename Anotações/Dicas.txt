@@ -1,0 +1,13 @@
+//Comentar uma linha de código ou fazer uma comentario
+
+/*Comentar mais 
+	de uma linha
+		de código*/ essa também é a maneira de comentar no css
+
+Para comentar no html se us <!-- texto exemplo -->
+
+Nesse código abaixo o "+" é usado como concatenação
+var nome = window.prompt('Qual é seu nome?'); //nome digitado foi 'Leonam'
+window.alert('Seja bem vindo, ' + nome + '!');
+resoltado é um alert na tela dizendo "Seja bem vindo, Leonam!"
+
