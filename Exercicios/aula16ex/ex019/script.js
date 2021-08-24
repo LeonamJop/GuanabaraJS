@@ -58,4 +58,9 @@ function finalizar(){
         res.innerHTML += `<p>A soma total dos valores é ${soma}.</p>`
         res.innerHTML += `<p>A média dos valores é ${media}</p>`
     }
+
+    function reset(){
+        item.text = ''
+        num.value = ''
+    }
 }

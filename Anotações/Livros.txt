@@ -1,4 +1,0 @@
-JavaScript guia definitivo
-Auto: David Flanagan
-
-JavaScript guia do programador

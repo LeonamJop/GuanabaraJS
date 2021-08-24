@@ -1,8 +1,0 @@
-HTML: Responsavel pelo conteudo.(Conteúdo)
-	-Focado em textos, marcações e imagens.
-	
-CSS: Responsavel pelo desing.(Estilo)
-	-Focado em deixar tudo mais "bonito".
-
-JavaScript: Responsavel pelas interações e integrações.(Interação)
-	-Interações com o site.
